@@ -23,7 +23,7 @@ inotifywait -m -r -e modify,create,delete,move --exclude '(\.git|sync\.log)' "$W
     if git push origin $BRANCH; then
         # 푸시 성공 시 완료 시간과 함께 출력
         COMPLETE_TIME=$(date +'%Y-%m-%d %H:%M:%S')
-        echo "✅ 푸시 완료! (완료 일시: $COMPLETE_TIME)"
+        echo "✅ 푸시 완료! (완료 일시: $COMPLETE_TIME\n)"
         echo "--------------------------------------------------"
     else
         echo "❌ 푸시 실패! 네트워크나 권한을 확인하세요."
