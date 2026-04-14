@@ -220,3 +220,9 @@ To https://github.com/JYPark0104/EC2_Github_connection_test.git
    504b8d1..a1f4b83  main -> main
 ✅ 푸시 완료!
 ✨ 변경 감지: sync.log (MODIFY) - GitHub로 푸시 중...
+[main 974a31f] Auto-sync: sync.log MODIFY at 2026-04-14 07:00:59
+ 1 file changed, 6 insertions(+)
+To https://github.com/JYPark0104/EC2_Github_connection_test.git
+   a1f4b83..974a31f  main -> main
+✅ 푸시 완료!
+✨ 변경 감지: sync.log (MODIFY) - GitHub로 푸시 중...
