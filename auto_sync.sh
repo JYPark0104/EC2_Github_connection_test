@@ -7,7 +7,11 @@ BRANCH="main"      # 실시간 동기화용 별도 브랜치 권장
 echo "🚀 [실시간 동기화 시작] $WATCH_DIR 폴더의 변경사항을 감시합니다..."
 
 # 파일 변경(수정, 생성, 삭제, 이동)이 감지될 때까지 대기
-inotifywait -m -r -e modify,create,delete,move --exclude '\.git' "$WATCH_DIR" | while read path action file; do
+# 수정 전: inotifywait -m -r -e modify,create,delete,move --exclude '\.git' "$WATCH_DIR"
+# 수정 후 (로그 파일 제외 추가):
+# 수정 전: inotifywait -m -r -e modify,create,delete,move --exclude '\.git' "$WATCH_DIR"
+# 수정 후 (로그 파일 제외 추가):
+inotifywait -m -r -e modify,create,delete,move --exclude '(\.git|sync\.log)' "$WATCH_DIR" | while read path action file; do
     echo "✨ 변경 감지: $file ($action) - GitHub로 푸시 중..."
     
     # Git 명령어 실행
