@@ -11,7 +11,7 @@ def product(x: float, y: float) -> float:
     Returns:
         float: 두 숫자의 합
     """
-    return x + y
+    return x*y
 
 # # 이 파일을 단독으로 실행해서 기능이 잘 도는지 테스트해 볼 때만 동작하는 구역입니다.
 # if __name__ == "__main__":
