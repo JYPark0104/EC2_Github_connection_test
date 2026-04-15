@@ -75,3 +75,25 @@ remote: No anonymous write access.
 fatal: Authentication failed for 'https://github.com/JYPark0104/EC2_Github_connection_test.git/'
 ❌ 푸시 실패! 네트워크나 권한을 확인하세요.
 ✨ 변경 감지: test_code3_v1.py (MODIFY) [2026-04-15 07:32:27] - GitHub로 푸시 중...
+[main 6bbd3af] Auto-sync: test_code3_v1.py MODIFY at 2026-04-15 07:32:27
+ 1 file changed, 22 insertions(+)
+Missing or invalid credentials.
+Error: connect ECONNREFUSED /run/user/1000/vscode-git-ffb2872ee1.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '/run/user/1000/vscode-git-ffb2872ee1.sock'
+}
+Missing or invalid credentials.
+Error: connect ECONNREFUSED /run/user/1000/vscode-git-ffb2872ee1.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '/run/user/1000/vscode-git-ffb2872ee1.sock'
+}
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/JYPark0104/EC2_Github_connection_test.git/'
+❌ 푸시 실패! 네트워크나 권한을 확인하세요.
+✨ 변경 감지: test_code3_v1.py (MODIFY) [2026-04-15 07:32:28] - GitHub로 푸시 중...
