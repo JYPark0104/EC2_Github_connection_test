@@ -11,7 +11,7 @@ b = 13
 
 # 3. 각 엔진(모듈)에 데이터를 넣고 결과 받기
 result_add = add(a, b)
-result_mul = multiply(a, b)
+result_mul = product(a, b)
 
 # 4. 결과 출력 (스마트폰의 화면에 띄우는 것과 같습니다)
 print("--- DCL 통합 시스템 구동 테스트 ---")
