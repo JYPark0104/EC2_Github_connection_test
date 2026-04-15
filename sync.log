@@ -339,3 +339,11 @@ To https://github.com/JYPark0104/EC2_Github_connection_test.git
 ✅ 푸시 완료! (완료 일시: 2026-04-15 08:16:07)
 --------------------------------------------------
 ✨ 변경 감지: main_script.py (MOVED_FROM) [2026-04-15 08:17:07] - GitHub로 푸시 중...
+[main 4eb6d05] Auto-sync: main_script.py MOVED_FROM at 2026-04-15 08:17:07
+ 2 files changed, 7 insertions(+), 21 deletions(-)
+ delete mode 100644 main_script.py
+To https://github.com/JYPark0104/EC2_Github_connection_test.git
+   ec854ae..4eb6d05  main -> main
+✅ 푸시 완료! (완료 일시: 2026-04-15 08:17:08)
+--------------------------------------------------
+✨ 변경 감지: module2_product.py (MODIFY) [2026-04-15 08:22:49] - GitHub로 푸시 중...
