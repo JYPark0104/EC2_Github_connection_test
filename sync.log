@@ -332,3 +332,10 @@ To https://github.com/JYPark0104/EC2_Github_connection_test.git
 ✅ 푸시 완료! (완료 일시: 2026-04-15 08:16:06)
 --------------------------------------------------
 ✨ 변경 감지: main_script.py (MODIFY) [2026-04-15 08:16:06] - GitHub로 푸시 중...
+[main ec854ae] Auto-sync: main_script.py MODIFY at 2026-04-15 08:16:06
+ 1 file changed, 7 insertions(+)
+To https://github.com/JYPark0104/EC2_Github_connection_test.git
+   68bb6f9..ec854ae  main -> main
+✅ 푸시 완료! (완료 일시: 2026-04-15 08:16:07)
+--------------------------------------------------
+✨ 변경 감지: main_script.py (MOVED_FROM) [2026-04-15 08:17:07] - GitHub로 푸시 중...
