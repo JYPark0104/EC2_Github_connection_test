@@ -9,7 +9,7 @@ def product(x: float, y: float) -> float:
         y (float): 두 번째 숫자
         
     Returns:
-        float: 두 숫자의 합
+        product: 두 숫자의 곱
     """
     return x*y
 
