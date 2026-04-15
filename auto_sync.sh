@@ -14,7 +14,11 @@ inotifywait -m -r -e modify,create,delete,move --exclude '(\.git|sync\.log)' "$W
     
     echo "✨ 변경 감지: $file ($action) [$NOW] - GitHub로 푸시 중..."
     
-    # 3. Git 명령어 실행
+    # (추가) Kiro/VSCode의 임시 인증 터널 무시하기
+    unset GIT_ASKPASS
+    unset SSH_AUTH_SOCK
+    
+    # Git 명령어 실행
     git add .
     # 커밋 메시지에도 시간 포함
     git commit -m "Auto-sync: $file $action at $NOW"
