@@ -216,3 +216,11 @@ To https://github.com/JYPark0104/EC2_Github_connection_test.git
 ✅ 푸시 완료! (완료 일시: 2026-04-15 08:12:13)
 --------------------------------------------------
 ✨ 변경 감지: test_code3_v1.py (MOVED_FROM) [2026-04-15 08:12:27] - GitHub로 푸시 중...
+[main 76b4e18] Auto-sync: test_code3_v1.py MOVED_FROM at 2026-04-15 08:12:27
+ 2 files changed, 7 insertions(+)
+ rename test_code3_v1.py => mainscript.py (100%)
+To https://github.com/JYPark0104/EC2_Github_connection_test.git
+   de2bcde..76b4e18  main -> main
+✅ 푸시 완료! (완료 일시: 2026-04-15 08:12:28)
+--------------------------------------------------
+✨ 변경 감지: mainscript.py (MOVED_TO) [2026-04-15 08:12:28] - GitHub로 푸시 중...
